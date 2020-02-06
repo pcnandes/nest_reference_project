@@ -19,12 +19,54 @@ Já tive experiencia com nest em outros projetos, sendo um relativamente grande 
 
 ## Instalação
 
-Instalção do CLI
+Instalação do CLI do Nest
 
-> npm i -g @nestjs/cli
-> Criação do projeto
-> nest new nest_reference_project
+`npm i -g @nestjs/cli`
+
+Criação do projeto
+
+`nest new nest_reference_project`
 
 ## Outras bibliotecas
 
+**As bibliotecas globais ficam configuradas em main.ts configurações dessas bibliotecas**
+
+compression -> diminui consideravelmente o tamanho do corpo das respostas.
+
+`npm i --save compression`
+
+helmet -> pode ajudar a proteger seu aplicativo de algumas vulnerabilidades conhecidas da W
+
+`npm i --save helmet`
+
+CSRF -> tem por função mitigar ataques de solicitação entre sites (conhecida como CSRF ou XSRF) é um tipo de exploração mal-intencionada de um site em que comandos não autorizados
+
+`npm i --save csurf`
+
+express-rate-limit -> protege contra ataques de força bruta,
+
+`npm i --save express-rate-limit`
+
+`npm i --save class-validator class-transformer`
+
+Swagger
+
+`npm install --save @nestjs/swagger swagger-ui-express`
+
+TypeORM -> ORM (Object Relational Mapper) totalmente escrito em TypeScript e funciona muito bem com nestjs
+https://typeorm.io/#/
+
+`npm install --save typeorm mysql`
+
+PG -> drive do postgres
+
+`npm install pg --save`
+
+dev:
+nyc
+
 ## Configurando VsCode
+
+https://desenvolvimentoparaweb.com/javascript/visual-studio-code-javascript-extensoes-plugins/
+https://tableless.com.br/10-extensoes-essenciais-para-vs-code/
+https://programathor.com.br/blog/top-extensoes-para-vs-code/
