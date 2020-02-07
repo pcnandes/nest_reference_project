@@ -20,105 +20,87 @@ Já tive experiencia com nest em outros projetos, sendo um relativamente grande 
 
 Instalação do CLI do Nest
 
-<!-- prettier-ignore -->
-```npm i -g @nestjs/cli```
+`npm i -g @nestjs/cli`
 
 Criação do projeto
 
-<!-- prettier-ignore -->
-```nest new nest_reference_project```
+`nest new nest_reference_project`
 
 ## Outras bibliotecas
 
 **As bibliotecas globais ficam configuradas em main.ts configurações dessas bibliotecas**
 
-compression -> diminui consideravelmente o tamanho do corpo das respostas.
+**compression** -> diminui consideravelmente o tamanho do corpo das respostas.
 
-<!-- prettier-ignore -->
-```npm i --save compression```
+`npm i --save compression`
 
-helmet -> pode ajudar a proteger seu aplicativo de algumas vulnerabilidades conhecidas da W
+**helmet** -> pode ajudar a proteger seu aplicativo de algumas vulnerabilidades conhecidas da W
 
-<!-- prettier-ignore -->
-```npm i --save helmet```
+`npm i --save helmet`
 
-CSRF -> tem por função mitigar ataques de solicitação entre sites (conhecida como CSRF ou XSRF) é um tipo de exploração mal-intencionada de um site em que comandos não autorizados
+**CSRF** -> tem por função mitigar ataques de solicitação entre sites (conhecida como CSRF ou XSRF) é um tipo de exploração mal-intencionada de um site em que comandos não autorizados
 
-<!-- prettier-ignore -->
-```npm i --save csurf```
+`npm i --save csurf`
 
-express-rate-limit -> protege contra ataques de força bruta,
+**express-rate-limit** -> protege contra ataques de força bruta,
 
-<!-- prettier-ignore -->
-```npm i --save express-rate-limit```
+`npm i --save express-rate-limit`
 
-<!-- prettier-ignore -->
-```npm i --save class-validator class-transformer```
+`npm i --save class-validator class-transformer`
 
-Swagger
+**Swagger**
 
-<!-- prettier-ignore -->
-```npm install --save @nestjs/swagger swagger-ui-express```
+`npm install --save @nestjs/swagger swagger-ui-express`
 
-TypeORM -> ORM (Object Relational Mapper) totalmente escrito em TypeScript e funciona muito bem com nestjs
+**TypeORM** -> ORM (Object Relational Mapper) totalmente escrito em TypeScript e funciona muito bem com nestjs
 https://typeorm.io/#/
 
-<!-- prettier-ignore -->
-```npm install --save typeorm mysql```
+`npm install --save typeorm mysql`
 
-PG -> drive do postgres
+**PG** -> drive do postgres
 
-<!-- prettier-ignore -->
-```npm install pg --save```
+`npm install pg --save`
 
 dev:
 nyc
 
 ## Configurando VsCode
 
-settings-sync -> sincroniza as configurações do VSCode em todas as maquinas
+**settings-sync** -> sincroniza as configurações do VSCode em todas as maquinas
 
 1. Upload Key : Shift + Alt + U
 2. Download Key : Shift + Alt + D
-   <!-- prettier-ignore -->
-   ```https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync```
 
-prettier -> formata automaticamente o código (use format a file on save)
+`https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync`
 
-<!-- prettier-ignore -->
-```https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode```
+**prettier** -> formata automaticamente o código (use format a file on save)
 
-tslint -> indica falhas de formatação
+`https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode`
 
-<!-- prettier-ignore -->
-```https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin```
+**tslint** -> indica falhas de formatação
 
-npm-intellisense -> autocompleta bibliotecas npm instaladas
+`https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin`
 
-<!-- prettier-ignore -->
-```https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense```
+**npm-intellisense** -> autocompleta bibliotecas npm instaladas
 
-material-icon-theme -> conjunto de icones
+`https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense`
 
-<!-- prettier-ignore -->
-```https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme```
+**material-icon-theme** -> conjunto de icones
 
-import-cost -> informa o tamanho dos pacotes importados
+`https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme`
 
-<!-- prettier-ignore -->
-```https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost```
+**import-cost** -> informa o tamanho dos pacotes importados
 
-Bracket-Pair-Colorizer-2 -> colore abertura e fechamento de blocos facilitando a leitura do código
+`https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost`
 
-<!-- prettier-ignore -->
-```https://github.com/CoenraadS/Bracket-Pair-Colorizer-2```
+**Bracket-Pair-Colorizer-2** -> colore abertura e fechamento de blocos facilitando a leitura do código
 
-gitlens -> carregas algumas informações do git, como quem commitou determinada linha ou bloco de código
+`https://github.com/CoenraadS/Bracket-Pair-Colorizer-2`
 
-<!-- prettier-ignore -->
-```https://gitlens.amod.io/```
+**gitlens** -> carregas algumas informações do git, como quem commitou determinada linha ou bloco de código
 
-todo-highlight -> Highlight TODO, FIXME and other annotations within your code.
+`https://gitlens.amod.io/`
 
-<!-- prettier-ignore -->
-```https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight```
+**todo-highlight** -> Highlight TODO, FIXME and other annotations within your code.
+
+`https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight`
