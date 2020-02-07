@@ -1,8 +1,8 @@
-## Objetivo
+## Objetivo <img src="https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg" alt="NestJs" width="30px" height="30px">
 
 O objetivo deste projeto é documentar e servir de referência para criação de novos projetos rest que utilizem o framework NestJS. A ideia é manter esse projeto sempre atualizado com as bibliotecas que utilizo por padrão.
 
-- <img src="https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg" alt="NestJs" width="30px" height="30px"> NestJS
+- NestJS
 - Rest;
 - TypeScript;
 - Jest (teste automatizados);
