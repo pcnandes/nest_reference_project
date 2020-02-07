@@ -64,7 +64,7 @@ https://typeorm.io/#/
 dev:
 nyc
 
-## Extenções VsCode
+## Extensões VsCode
 
 **settings-sync** -> sincroniza as configurações do VSCode em todas as maquinas
 
