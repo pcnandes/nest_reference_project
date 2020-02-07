@@ -1,6 +1,6 @@
 ## Objetivo <img src="https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg" alt="NestJs" width="30px" height="30px">
 
-O objetivo deste projeto é documentar e servir de referência para criação de novos projetos rest que utilizem o framework NestJS. A ideia é manter esse projeto sempre atualizado com as bibliotecas que utilizo por padrão.
+O objetivo deste projeto é documentar e servir de referência para criação de novos projetos rest que utilizem o framework NestJS. A ideia é manter esse projeto sempre atualizado com as bibliotecas que utilizo.
 
 - NestJS
 - Rest;
@@ -14,7 +14,7 @@ O objetivo deste projeto é documentar e servir de referência para criação de
 
 Nest é um framework escalável com suporte total ao TypeScript. Nest usa um sistema de módulos muito parecido com o do Angular, o que torna seu uso facilitado por quem conhece esse framework. Além disso, Nest usa o express como seu framework HTTP padrão, mas pode ser configurado o Fastify e oferece um CLI que facilita a criação do projeto, modulos, controles etc.
 
-Já tive experiencia com nest em outros projetos, sendo um relativamente grande e, no geral, me atendeu muito bem. Nest tras um padrão de organização e uma série de ferramentas que facilitam a implementação e a padronização de código.
+Já tive experiencia com Nest em outros projetos e no geral, me atendeu muito bem. Nest traz um padrão de organização e uma série de ferramentas que facilitam a implementação e a padronização de código.
 
 ## Instalação
 
